@@ -12,7 +12,7 @@ export default st => {
 function formatBlogPost(post) {
   return `
   <div class="blog-post">
-    <h4>${capitalize(post.title)} by User ${post.userId}</h4>
+    <h4>${capitalize(post.title)}</h4>
     <p>${capitalize(post.body)}</p>
   </div>
   `;
